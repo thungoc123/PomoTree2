@@ -215,27 +215,7 @@
 
         <!-- pomodoro -->
         <div class="pomodoro">
-          <div class="pomodoro__box">
-            <div class="circle">
-              <div class="image"></div>
-            </div>
-            <div class="box">
-              <div class="period">
-                <div class="study active">Pomodoro</div>
-                <div class="s-break">Short Break</div>
-                <div class="l-break">Long Break</div>
-              </div>
-              <div class="timestamp">0:00</div>
-              <div class="footer">
-                <div class="start">Start</div>
-                <div class="stop">Stop</div>
-                <div class="skip">
-                  <i class="fas fa-forward"></i>
-                </div>
-              </div>
-              <audio class="time-up" src="./sounds/rings/DigitalClockRing.mp3"></audio>
-            </div>
-          </div>
+          
           <div class="tasklist">
 
             <div class="filters">
@@ -243,17 +223,44 @@
                 <input type="datetime">
               </div>
               <div class="tags">
-                <label>Tags</label>
+                <label>Tags: </label>
                 <button class="tagHome">Home</button>
                 <button class="tagWork">Work</button>
                 <button class="tagFreetime">Freetime</button>
                 <button class="tagSchool">School</button>
                 <button class="done">Done</button>
+                
+              </div>
+              <div class="tags">
+               
+                <button class="notdone">Not done</button>
+                <button class="all">All</button>
+                <button class="done">Done</button>
                 <button class="notdone">Not done</button>
                 <button class="all">All</button>
               </div>
             </div>
-
+            <div class="pomodoro__box">
+              <div class="circle">
+                <div class="image"></div>
+              </div>
+              <div class="box">
+                <div class="period">
+                  <div class="study active">Pomodoro</div>
+                  <div class="s-break">Short Break</div>
+                  <div class="l-break">Long Break</div>
+                </div>
+                <div class="timestamp">0:00</div>
+                <div class="footer">
+                  <div class="start">Start</div>
+                  <div class="stop">Stop</div>
+                  <div class="skip">
+                    <i class="fas fa-forward"></i>
+                  </div>
+                </div>
+                <audio class="time-up" src="./sounds/rings/DigitalClockRing.mp3"></audio>
+              </div>
+            </div>
             <div class="tasklist__box">
               <div class="header">
                 <div class="name">Tasks</div>

@@ -206,7 +206,7 @@ body{
 .filters {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     height: 100%;
     align-items: center;
 }
@@ -390,9 +390,10 @@ body{
 .tasklist {
     flex-grow: 3;
     display: flex;
-    flex-flow: row-reverse;
+    flex-flow: row;
     align-items: center;
     justify-content: space-around;
+    margin: 0 2rem;
 }
 
 .tasklist__box {
@@ -585,6 +586,9 @@ body{
   padding: 0 10px;
 }
  /* style calendar  */
+ .calendar{
+   margin-bottom: 30px;
+ }
 .calendar input {
   display: none;
 }
@@ -629,4 +633,54 @@ body{
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+}
+/* style tags  */
+
+.filters .tags button {
+  min-width: 70px;
+}
+.filters .tags .tagHome, .tagFreetime {
+  display: inline-block;
+  padding: 5px;
+  border: none;
+  color: white;
+  margin: 5px;
+  border-radius: 10px;
+  background: #d38787;
+  
+}
+.filters .tags .tagHome:hover, .tagFreetime:hover {
+  background: #c55959;
+  transition: 0.5s background;
+  cursor: pointer;
+}
+.filters .tags .tagWork, .done {
+    display: inline-block;
+    padding: 5px;
+    background: #FFA36C;
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    
+  
+}
+.filters .tags .tagWork:hover, .done:hover {
+  background: #a85c2f;
+  transition: 0.5s background;
+  cursor: pointer;
+}
+.filters .tags .notdone, .all, .tagSchool {
+    display: inline-block;
+    padding: 5px;
+    background: rgb(121, 147, 81);
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+.filters .tags .notdone:hover, .all:hover, .tagSchool:hover {
+  background: rgb(66, 92, 24);
+  transition: 0.5s background;
+  cursor: pointer;
 }
