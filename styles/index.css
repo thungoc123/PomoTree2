@@ -41,13 +41,13 @@ body{
   font-weight: 900;
   color: #944c52;
 }
-.nav__items--first {
+.nav__items {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
   align-items: center;
 }
-.nav__items--first button{
+.nav__items button{
   background: #588C73;
   border: none;
   /* border-radius: 12px; */
@@ -229,6 +229,9 @@ body{
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
+}
+.profile__modal .body .name{
+  font-weight: 700;
 }
 .modal-name {
   font-weight: bold;
@@ -444,7 +447,7 @@ body{
     flex-flow: column;
     margin-top: 10px;
     /* overflow-y: scroll; */
-    /* min-height: 45vh; */
+    max-height: 60vh;
     overflow: hidden;
 
 }
@@ -724,6 +727,6 @@ body{
 .profile__modal .name{
   color: rgb(110, 104, 104);
 }
-.nav__items--last{
+.footer .nav__items{
   display: none;
 }
