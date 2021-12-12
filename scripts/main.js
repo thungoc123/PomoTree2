@@ -15,12 +15,12 @@ const saveBtn = $(".task__modal .save-btn");
 const optionAllBox = $(".btn-all-option");
 
 // profile var
-const profileBtn = $(".nav__items .profile");
+const profileBtn = $(".nav__items--first .profile");
 const profileModal = $(".profile__modal");
 const profileClose = $(".profile-close");
 const treeAmount = $(".profile-tree .amount");
 // setting var
-const settingBtn = $(".nav__items .setting");
+const settingBtn = $(".nav__items--first .setting");
 const settingModal = $(".setting__modal");
 const settingClose = $(".setting-close");
 

@@ -1,0 +1,45 @@
+@media screen and (max-width: 1024px) {
+    .pomodoro {
+      display: block;
+    }
+    .par-tasks {
+      display: flex;
+      flex-flow: column;
+      margin-top: 10px;
+      height: 29vh;
+      overflow: hidden;
+    }
+   .pomodoro__box{
+      margin-bottom: 5rem;
+   }
+   
+  }
+  
+@media screen and (max-width: 800px) {
+  .par-tasks {
+    display: flex;
+    flex-flow: column;
+    margin-top: 10px;
+    min-height: 30vh;
+    overflow: hidden;
+  }
+  .flatpickr-calendar.inline {
+    background: rgb(192, 89, 79);
+    color: rgb(254, 254, 254);
+    width: 340px;
+  }
+  .tasklist {
+    /* flex-grow: 3; */
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 2rem;
+  }
+  
+ }
+  
+@media screen and (max-width: 600px) {
+    
+  }
+  

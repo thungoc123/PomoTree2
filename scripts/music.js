@@ -13,7 +13,7 @@ const duration = $("#time .duration");
 const maxVolume = $(".volume-max");
 const minVolume = $(".volume-min");
 const musicClose = $(".music__modal--box .music-close");
-const musicOpen = $(".nav__items .music");
+const musicOpen = $(".nav__items--first .music");
 const musicModalOverlay = $(".music__modal");
 
 // format time
